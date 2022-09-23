@@ -1,0 +1,22 @@
+{
+	"trailingComma": "es5",
+	"tabWidth": 4,
+	"useTabs": true,
+	"singleQuote": true,
+	"bracketSpacing": true,
+	"printWidth": 120,
+	"overrides": [
+		{
+			"files": "**/lwc/**/*.html",
+			"options": {
+				"parser": "lwc"
+			}
+		},
+		{
+			"files": "*.{cmp,page,component}",
+			"options": {
+				"parser": "html"
+			}
+		}
+	]
+}
